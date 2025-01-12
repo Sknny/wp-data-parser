@@ -24,3 +24,9 @@ function dp_init_plugin() {
 }
 
 add_action('plugins_loaded', 'dp_init_plugin');
+
+function dp_enqueue_styles() {
+    wp_enqueue_style('data-parser-style', DP_PLUGIN_URL . 'css/data-parser.css', array(), '1.0', 'all');
+}
+
+add_action('wp_enqueue_scripts', 'dp_enqueue_styles');
