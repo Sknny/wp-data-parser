@@ -29,7 +29,7 @@ CSV:
 ```
 [dp_display_data url="https://api.example.com/data.csv" format="csv" title="CSV Data" header="false"]
 ```
-You can check example into `data.json` file
+You can check an example in the data.json file and use this URL for testing: `https://<YOUR_WP_DOMAIN>/wp-content/plugins/data-parser/data.json`
 
 ### Settings
 Navigate to `Settings > Data Parser` to configure the cache duration
